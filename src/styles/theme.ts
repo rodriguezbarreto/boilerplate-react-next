@@ -1,8 +1,12 @@
-import {extendTheme} from '@chakra-ui/react'
+import { extendTheme } from '@chakra-ui/react'
 
 export const theme = extendTheme({
+    fonts: {
+        heading: 'Roboto',
+        body: 'Roboto'
+    },
     styles: {
-        global:{
+        global: {
             body: {
                 color: 'gray.900'
             }
